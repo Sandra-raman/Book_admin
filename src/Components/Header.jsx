@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <h1 className="website-name">PoltPoint</h1>
+        <h1 className="website-name text-light">PoltPoint</h1>
       </div>
       <div className="navbar-right">
         <div
