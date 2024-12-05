@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar-left">
+      <div className="navbar-left ms-4">
         <h1 className="website-name text-light">PoltPoint</h1>
       </div>
       <div className="navbar-right">
@@ -19,9 +19,9 @@ const Header = () => {
           onClick={() => setShowDropdown(!showDropdown)}
         >
           <img
-            src="https://via.placeholder.com/40" // Replace with your image URL
+            src="https://www.svgrepo.com/show/350417/user-circle.svg"
             alt="User"
-            className="profile-image"
+            className="profile-image me-3"
           />
         </div>
         {showDropdown && (

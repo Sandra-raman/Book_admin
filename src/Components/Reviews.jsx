@@ -7,13 +7,17 @@ function Reviews() {
        <div className="row border p-4 my-2">
   <div className="col-1">
     <img
-      src="https://via.placeholder.com/60"
+      src="https://www.svgrepo.com/show/350417/user-circle.svg"
       alt="Profile"
       className="rounded-circle"
+      height={'70px'}
+      width={'70px'}
     />
   </div>
   <div className="col-9 ">
     <h5>Username</h5>
+    <h6>Book Title</h6>
+    <p>Author</p>
     <p style={{ textAlign: "justify" }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor optio delectus deserunt? Amet maiores illo magni saepe alias eveniet ullam accusantium necessitatibus architecto non reprehenderit, porro repellendus obcaecati esse.
     Nisi, quasi odit dolorum itaque esse minus! Soluta, hic dolorem. Velit illo ex dolorum debitis quia eveniet dicta blanditiis quis ipsam nisi totam, qui ducimus, eaque nobis expedita ut dolores!
     Tempore, at libero molestias quibusdam necessitatibus minus ipsum, doloribus amet cupiditate tempora suscipit pariatur aspernatur magnam, ipsam voluptatibus exercitationem reiciendis cumque numquam natus! Reprehenderit officiis dolorum modi voluptates quasi! Velit.
